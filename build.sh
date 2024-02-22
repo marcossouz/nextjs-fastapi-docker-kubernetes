@@ -1,1 +1,1 @@
-docker build -t fastapi .
+docker build -t mrcsz/fastapi .

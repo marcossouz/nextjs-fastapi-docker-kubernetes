@@ -1,0 +1,1 @@
+docker push mrcsz/fastapi

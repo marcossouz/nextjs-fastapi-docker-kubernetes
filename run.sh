@@ -1,1 +1,1 @@
-docker run -d --name fastapi-container -p 8000:80 fastapi
+docker run -d --name fastapi-container -p 8000:80 mrcsz/fastapi

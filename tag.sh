@@ -1,0 +1,1 @@
+docker tag mrcsz/fastapi:latest mrcsz/fastapi:0.1
