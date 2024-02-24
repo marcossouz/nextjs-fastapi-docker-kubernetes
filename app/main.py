@@ -2,12 +2,14 @@ from typing import Union
 
 from fastapi import FastAPI
 
+from .functions import get_random_number
+
 app = FastAPI()
 
 
 @app.get("/")
 def read_root():
-    return {"Hello": "World"}
+    return {"number": get_random_number()}
 
 
 @app.get("/items/{item_id}")
