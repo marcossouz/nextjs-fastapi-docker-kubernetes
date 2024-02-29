@@ -5,3 +5,6 @@
 
 - fastapi
 - docker / docker-compose
+- kubernetes
+- github actions
+- pytest
